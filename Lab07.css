@@ -5,3 +5,12 @@
 .transition-button:hover{
     background-color: green;
 }
+.transition-div{
+    width: 100px;
+    background-color: aquamarine;
+    transition: width 1s;
+}
+.transition-div:hover{
+    width: 200px;
+    background-color: blueviolet;
+}
