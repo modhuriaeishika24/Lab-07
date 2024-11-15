@@ -3,9 +3,15 @@ var Name = "Modhuria";
 var age = "18";
 console.log(age, Name);
 //Q 2
-var number = 24;
-
-
+let string = "Hii";{
+console.log(string);
+let number = 24;
+console.log(number);
+let boolean = false; 
+console.log(boolean);
+let undefined; 
+console.log(undefined);
+}
 //Q 3
 let RollNo = "15";{
 if(RollNo > 10);
@@ -55,10 +61,10 @@ let num = "50";{
     console.log(num);
     }
 // Q 9
-let hasCar = "ture";{
-let hasLicense = "true";
-let hasInsurance = "true";
-if(hasCar, hasLicense, hasInsurance = "true");
+let hasCar = true;{
+let hasLicense = true;
+let hasInsurance = true;
+if(hasCar, hasLicense, hasInsurance = true);
 hasCar, hasLicense, hasInsurance = "you can drive legally";
 console.log(hasCar, hasLicense, hasInsurance);
 }
@@ -71,8 +77,15 @@ Num = "the numer is odd";
 console.log(Num);
 }
 // Q 11 
-let score = "85";{
-    if(score > 90);
-}
+let score = "85";
+    if(score >= 90){
+    score = "Grade A";
+    }
+    if(80 <= score <= 89);{
+    score = "Grade B";
+    } 
+  if(score = 85)
+console.log("Grade C");
+
 
 
